@@ -5,13 +5,13 @@ terraform {
             version = "~> 4.53.1"
         }
     }
-    backend "gcs" {
+    backend gcs {
         bucket = "arminius-demo-terraform-dev"
         prefix = "state"
     }
 }
 
-provider "google" {
+provider google {
     project     = var.project_id
     region      = var.region
 }
