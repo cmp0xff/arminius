@@ -7,9 +7,9 @@ variable network {}
 
 variable port {}
 
-variable instance_name {
-    default = "shadowsocks"
-}
+# variable instance_name {
+#     default = "shadowsocks-libev"
+# }
 
 variable "machine_type" {
     default = "f1-micro"

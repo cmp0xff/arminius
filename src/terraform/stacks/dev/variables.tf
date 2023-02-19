@@ -8,10 +8,12 @@ variable project_id {
 
 variable region {
     default = "asia-northeast1"
+    # default = "europe-west1"
 }
 
 variable zone {
     default = "asia-northeast1-c"
+    # default = "europe-west1-c"
 }
 
 variable server_port {
