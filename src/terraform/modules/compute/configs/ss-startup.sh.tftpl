@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install shadowsocks-libev -y
+sudo cat > /etc/shadowsocks-libev/config.json << EOFF
+${ config }
+EOFF
+sudo systemctl start shadowsocks-libev
