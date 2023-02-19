@@ -1,2 +1,3 @@
-variable "project_id" {}
-variable "region" {}
+# variable "region" {}
+
+# variable "run_noauth" {}
