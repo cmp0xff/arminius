@@ -6,6 +6,10 @@ module firewall {
     source = "../../modules/firewall"
 
     project_id = var.project_id
+
+    depends_on = [
+        module.marketplace
+    ]
 }
 
 module compute {
