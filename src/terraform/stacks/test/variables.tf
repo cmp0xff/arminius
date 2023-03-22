@@ -1,5 +1,5 @@
 variable stack {
-    default = "dev"
+    default = "test"
 }
 
 variable project_id {
